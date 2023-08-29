@@ -1,0 +1,125 @@
+{
+    "users":{
+        "randomID":{"id":"randomID","username":"ertu","password":"123","token":"123123213","is_admin":true,"deleted":false}
+    },
+    
+    "games":{
+        "randomID":{
+            "id":"randomID",
+            "name":"emily",
+            "person_fee":45,
+            "person_fee_double":50,
+            "video_fee":30,
+            "hours":["11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00"]
+        }
+    },
+    "sessions":{
+            "2022":{
+                "1":{
+                    "1":[
+                        {   
+                            "hour":"11:00",
+                            "name":"ertu",
+                            "count":5,
+                            "income":225,
+                            "video":true,
+                            "ekstra":10,
+                            "discount":10,
+                            "addedBy":"userID",
+                            "note":"note",
+                            "number":"123456789",
+                            "gameId":"gameId"
+                        }
+                    ]
+                }
+            }
+    },
+    "statistic":{
+        "0":{
+            "total_expanse": {
+                "2022":{
+                    "total": 1000,
+                    "1": {
+                        "total":100,
+                        "1":5,"2":3,"3":50
+                    }
+                }
+            },
+            "total_session":{
+                "2022":{
+                    "total":10,
+                    "1":{
+                        "total":5,
+                        "1":5,"2":10
+                    }
+                }
+            },
+            "total_person":{
+                "2022":{
+					"total":10,
+                    "1":{
+						"total":60,
+                        "1":10,"2":50
+                    }
+                }
+            },
+            "total_video":{
+                "2022":{
+					"total":10,
+                    "1":{
+						"total":10,
+                        "1":10,"2":50
+                    }
+                }
+            },
+            "total_ekstra":{
+                "2022":{
+					"total":10,
+                    "1":{
+						"total":10,
+                        "1":10,"2":50
+                    }
+                }
+            },
+            "total_discount":{
+                "2022":{
+					"total":10,
+                    "1":{
+						"total":10,
+                        "1":10,"2":50
+                    }
+                }
+            },
+            "total_income":{
+                "2022":{
+					"total":10,
+                    "1":{
+						"total":10,
+                        "1":10,"2":50
+                    }
+                }
+            }
+        }
+    },
+    "expanses":{
+        "categories" : ["food","clothes","other"],
+        "expanses": {
+            "2022": {
+                "total": 1000,
+                "1": {
+                    "total":100,
+                    "1": [
+                        {
+                            "category":"food",
+                            "amount":10,
+                            "note":"note",
+                            "added_by":"ertu"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "number_list":[],
+    "black_number_list":[] // numara 3 tane gelmezse uyarı vericek
+}
